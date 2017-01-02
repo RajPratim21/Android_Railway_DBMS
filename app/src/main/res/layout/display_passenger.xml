@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="500px"
+    android:background="@color/colorAccent"
+    >
+
+
+    <TextView
+        android:text="NAme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:text="To_Station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView28" />
+
+    <TextView
+        android:text="__"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView28"
+        android:layout_alignRight="@+id/to_station_list_pass"
+        android:layout_alignEnd="@+id/to_station_list_pass"
+        android:id="@+id/to_list_pass" />
+
+    <TextView
+        android:text="Train id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView30" />
+
+    <TextView
+        android:text="__"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_list_pass"
+        android:layout_alignBaseline="@+id/textView30"
+        android:layout_alignBottom="@+id/textView30"
+        android:layout_alignLeft="@+id/to_list_pass"
+        android:layout_alignStart="@+id/to_list_pass" />
+
+    <TextView
+        android:text="Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trainID_list_pass"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:text="__"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:layout_alignBaseline="@+id/trainID_list_pass"
+        android:layout_alignBottom="@+id/trainID_list_pass"
+        android:layout_alignLeft="@+id/date_list_pass"
+        android:layout_alignStart="@+id/date_list_pass" />
+
+    <TextView
+        android:text="From_Station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text=" __"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="119dp"
+        android:layout_marginStart="119dp"
+        android:id="@+id/name_list_pass"
+        android:layout_alignBaseline="@+id/textView26"
+        android:layout_alignBottom="@+id/textView26"
+        android:layout_toRightOf="@+id/textView26"
+        android:layout_toEndOf="@+id/textView26" />
+
+    <TextView
+        android:text="__"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/to_station_list_pass"
+        android:layout_above="@+id/textView26"
+        android:layout_alignLeft="@+id/name_list_pass"
+        android:layout_alignStart="@+id/name_list_pass" />
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:text="Passenger_querry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:id="@+id/passenger_button" />
+
+    <Button
+        android:text="Train_querry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Train_button"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/passenger_button"
+        android:layout_alignLeft="@+id/passenger_button"
+        android:layout_alignStart="@+id/passenger_button" />
+
+    <Button
+        android:text="Track_querry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/track_button"
+        android:layout_below="@+id/Train_button"
+        android:layout_alignLeft="@+id/Train_button"
+        android:layout_alignStart="@+id/Train_button"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:text="Station_querry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/station_button"
+        android:layout_below="@+id/track_button"
+        android:layout_alignLeft="@+id/track_button"
+        android:layout_alignStart="@+id/track_button" />
+
+    <Button
+        android:text="Schedule_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/Schedule_button"
+        android:layout_below="@+id/station_button"
+        android:layout_alignLeft="@+id/station_button"
+        android:layout_alignStart="@+id/station_button" />
+
+</LinearLayout>

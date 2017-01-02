@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">railwayDbms2</string>
+    <string name="title_activity_passenger">Passenger</string>
+    <string name="title_activity_train">Train</string>
+    <string name="title_activity_tracks">Tracks</string>
+    <string name="title_activity_train_schedule">TrainSchedule</string>
+    <string name="title_activity_station">Station</string>
+</resources>
